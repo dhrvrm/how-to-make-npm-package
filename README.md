@@ -1,5 +1,3 @@
-# how-to-make-npm-package
-
 # string-manipulation-exampless
 
 A simple npm package for common string manipulation functions: capitalize first letter, slugify text, truncate string, and reverse words.

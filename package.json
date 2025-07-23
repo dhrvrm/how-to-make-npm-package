@@ -1,0 +1,47 @@
+{
+	"name": "string-manipulation-exampless",
+	"version": "1.0.0",
+	"description": "This package is for greeting the person during the day",
+	"main": "lib/index.cjs",
+	"exports": {
+		"import": {
+			"default": "./lib/index.esm.js",
+			"types": "./lib/types/index.d.ts"
+		},
+		"require": {
+			"default": "./lib/index.cjs",
+			"types": "./lib/types/index.d.ts"
+		}
+	},
+	"files": [
+		"lib"
+	],
+	"scripts": {
+		"build": "rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dhrvrm/how-to-make-npm-package.git"
+	},
+	"keywords": [
+		"string",
+		"manipulation",
+		"capitalize",
+		"slugify",
+		"truncate",
+		"reverse"
+	],
+	"type": "module",
+	"author": "dhrvrm",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/dhrvrm/how-to-make-npm-package/issues"
+	},
+	"homepage": "https://github.com/dhrvrm/how-to-make-npm-package#readme",
+	"devDependencies": {
+		"rollup": "^4.17.2",
+		"rollup-plugin-delete": "^2.0.0",
+		"rollup-plugin-typescript2": "^0.36.0",
+		"typescript": "^5.4.5"
+	}
+}
